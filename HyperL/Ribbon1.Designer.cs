@@ -37,32 +37,32 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Ribbon1));
             this.tab1 = this.Factory.CreateRibbonTab();
             this.group1 = this.Factory.CreateRibbonGroup();
-            this.group2 = this.Factory.CreateRibbonGroup();
-            this.group3 = this.Factory.CreateRibbonGroup();
-            this.group4 = this.Factory.CreateRibbonGroup();
-            this.group5 = this.Factory.CreateRibbonGroup();
-            this.group6 = this.Factory.CreateRibbonGroup();
-            this.group7 = this.Factory.CreateRibbonGroup();
-            this.经本正一 = this.Factory.CreateRibbonGroup();
             this.button1 = this.Factory.CreateRibbonButton();
+            this.group2 = this.Factory.CreateRibbonGroup();
             this.button2 = this.Factory.CreateRibbonButton();
             this.button3 = this.Factory.CreateRibbonButton();
             this.button4 = this.Factory.CreateRibbonButton();
+            this.group3 = this.Factory.CreateRibbonGroup();
             this.button5 = this.Factory.CreateRibbonButton();
             this.button7 = this.Factory.CreateRibbonButton();
             this.button6 = this.Factory.CreateRibbonButton();
+            this.group4 = this.Factory.CreateRibbonGroup();
             this.button8 = this.Factory.CreateRibbonButton();
             this.button9 = this.Factory.CreateRibbonButton();
             this.button10 = this.Factory.CreateRibbonButton();
+            this.group5 = this.Factory.CreateRibbonGroup();
             this.button11 = this.Factory.CreateRibbonButton();
             this.button12 = this.Factory.CreateRibbonButton();
             this.button13 = this.Factory.CreateRibbonButton();
+            this.group6 = this.Factory.CreateRibbonGroup();
             this.button14 = this.Factory.CreateRibbonButton();
             this.button15 = this.Factory.CreateRibbonButton();
             this.button16 = this.Factory.CreateRibbonButton();
+            this.group7 = this.Factory.CreateRibbonGroup();
             this.button17 = this.Factory.CreateRibbonButton();
             this.button18 = this.Factory.CreateRibbonButton();
             this.button19 = this.Factory.CreateRibbonButton();
+            this.经本正一 = this.Factory.CreateRibbonGroup();
             this.button20 = this.Factory.CreateRibbonButton();
             this.tab1.SuspendLayout();
             this.group1.SuspendLayout();
@@ -95,6 +95,15 @@
             this.group1.Label = "模版";
             this.group1.Name = "group1";
             // 
+            // button1
+            // 
+            this.button1.ControlSize = Microsoft.Office.Core.RibbonControlSize.RibbonControlSizeLarge;
+            this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
+            this.button1.Label = "OfficePlus";
+            this.button1.Name = "button1";
+            this.button1.ShowImage = true;
+            this.button1.Click += new Microsoft.Office.Tools.Ribbon.RibbonControlEventHandler(this.button1_Click);
+            // 
             // group2
             // 
             this.group2.Items.Add(this.button2);
@@ -102,61 +111,6 @@
             this.group2.Items.Add(this.button4);
             this.group2.Label = "图片搜索";
             this.group2.Name = "group2";
-            // 
-            // group3
-            // 
-            this.group3.Items.Add(this.button5);
-            this.group3.Items.Add(this.button7);
-            this.group3.Items.Add(this.button6);
-            this.group3.Label = "设计灵感";
-            this.group3.Name = "group3";
-            // 
-            // group4
-            // 
-            this.group4.Items.Add(this.button8);
-            this.group4.Items.Add(this.button9);
-            this.group4.Items.Add(this.button10);
-            this.group4.Label = "免费大图";
-            this.group4.Name = "group4";
-            // 
-            // group5
-            // 
-            this.group5.Items.Add(this.button11);
-            this.group5.Items.Add(this.button12);
-            this.group5.Items.Add(this.button13);
-            this.group5.Label = "图标库";
-            this.group5.Name = "group5";
-            // 
-            // group6
-            // 
-            this.group6.Items.Add(this.button14);
-            this.group6.Items.Add(this.button15);
-            this.group6.Items.Add(this.button16);
-            this.group6.Label = "PNG图";
-            this.group6.Name = "group6";
-            // 
-            // group7
-            // 
-            this.group7.Items.Add(this.button17);
-            this.group7.Items.Add(this.button18);
-            this.group7.Items.Add(this.button19);
-            this.group7.Label = "AI";
-            this.group7.Name = "group7";
-            // 
-            // 经本正一
-            // 
-            this.经本正一.Items.Add(this.button20);
-            this.经本正一.Label = "经本正一";
-            this.经本正一.Name = "经本正一";
-            // 
-            // button1
-            // 
-            this.button1.ControlSize = Microsoft.Office.Core.RibbonControlSize.RibbonControlSizeLarge;
-            this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
-            this.button1.Label = "官方模版";
-            this.button1.Name = "button1";
-            this.button1.ShowImage = true;
-            this.button1.Click += new Microsoft.Office.Tools.Ribbon.RibbonControlEventHandler(this.button1_Click);
             // 
             // button2
             // 
@@ -182,6 +136,14 @@
             this.button4.ShowImage = true;
             this.button4.Click += new Microsoft.Office.Tools.Ribbon.RibbonControlEventHandler(this.button4_Click);
             // 
+            // group3
+            // 
+            this.group3.Items.Add(this.button5);
+            this.group3.Items.Add(this.button7);
+            this.group3.Items.Add(this.button6);
+            this.group3.Label = "设计灵感";
+            this.group3.Name = "group3";
+            // 
             // button5
             // 
             this.button5.Image = ((System.Drawing.Image)(resources.GetObject("button5.Image")));
@@ -205,6 +167,14 @@
             this.button6.Name = "button6";
             this.button6.ShowImage = true;
             this.button6.Click += new Microsoft.Office.Tools.Ribbon.RibbonControlEventHandler(this.button6_Click);
+            // 
+            // group4
+            // 
+            this.group4.Items.Add(this.button8);
+            this.group4.Items.Add(this.button9);
+            this.group4.Items.Add(this.button10);
+            this.group4.Label = "免费大图";
+            this.group4.Name = "group4";
             // 
             // button8
             // 
@@ -230,6 +200,14 @@
             this.button10.ShowImage = true;
             this.button10.Click += new Microsoft.Office.Tools.Ribbon.RibbonControlEventHandler(this.button10_Click);
             // 
+            // group5
+            // 
+            this.group5.Items.Add(this.button11);
+            this.group5.Items.Add(this.button12);
+            this.group5.Items.Add(this.button13);
+            this.group5.Label = "图标库";
+            this.group5.Name = "group5";
+            // 
             // button11
             // 
             this.button11.Image = ((System.Drawing.Image)(resources.GetObject("button11.Image")));
@@ -253,6 +231,14 @@
             this.button13.Name = "button13";
             this.button13.ShowImage = true;
             this.button13.Click += new Microsoft.Office.Tools.Ribbon.RibbonControlEventHandler(this.button13_Click);
+            // 
+            // group6
+            // 
+            this.group6.Items.Add(this.button14);
+            this.group6.Items.Add(this.button15);
+            this.group6.Items.Add(this.button16);
+            this.group6.Label = "PNG图";
+            this.group6.Name = "group6";
             // 
             // button14
             // 
@@ -278,6 +264,14 @@
             this.button16.ShowImage = true;
             this.button16.Click += new Microsoft.Office.Tools.Ribbon.RibbonControlEventHandler(this.button16_Click);
             // 
+            // group7
+            // 
+            this.group7.Items.Add(this.button17);
+            this.group7.Items.Add(this.button18);
+            this.group7.Items.Add(this.button19);
+            this.group7.Label = "AI";
+            this.group7.Name = "group7";
+            // 
             // button17
             // 
             this.button17.Image = ((System.Drawing.Image)(resources.GetObject("button17.Image")));
@@ -301,6 +295,12 @@
             this.button19.Name = "button19";
             this.button19.ShowImage = true;
             this.button19.Click += new Microsoft.Office.Tools.Ribbon.RibbonControlEventHandler(this.button19_Click);
+            // 
+            // 经本正一
+            // 
+            this.经本正一.Items.Add(this.button20);
+            this.经本正一.Label = "教学";
+            this.经本正一.Name = "经本正一";
             // 
             // button20
             // 
