@@ -1,0 +1,13 @@
+C:\Users\wangh\source\repos\HyperL\HyperL\bin\Debug\HyperL.dll
+C:\Users\wangh\source\repos\HyperL\HyperL\bin\Debug\HyperL.pdb
+C:\Users\wangh\source\repos\HyperL\HyperL\bin\Debug\HyperL.dll.manifest
+C:\Users\wangh\source\repos\HyperL\HyperL\bin\Debug\HyperL.vsto
+C:\Users\wangh\source\repos\HyperL\HyperL\bin\Debug\Microsoft.Office.Tools.Common.v4.0.Utilities.dll
+C:\Users\wangh\source\repos\HyperL\HyperL\obj\Debug\HyperL.csproj.AssemblyReference.cache
+C:\Users\wangh\source\repos\HyperL\HyperL\obj\Debug\HyperL.Properties.Resources.resources
+C:\Users\wangh\source\repos\HyperL\HyperL\obj\Debug\HyperL.Ribbon1.resources
+C:\Users\wangh\source\repos\HyperL\HyperL\obj\Debug\HyperL.csproj.GenerateResource.cache
+C:\Users\wangh\source\repos\HyperL\HyperL\obj\Debug\HyperL.csproj.CoreCompileInputs.cache
+C:\Users\wangh\source\repos\HyperL\HyperL\obj\Debug\HyperL.csproj.Up2Date
+C:\Users\wangh\source\repos\HyperL\HyperL\obj\Debug\HyperL.dll
+C:\Users\wangh\source\repos\HyperL\HyperL\obj\Debug\HyperL.pdb
